@@ -23,7 +23,8 @@ export const Scene = ({ config }: any) => {
 
   const material = new MeshPhongMaterial({
     color: config.color,
-    wireframe: config.wireframe
+    wireframe: config.wireframe,
+    shininess: 100
   })
 
   const shapes = [

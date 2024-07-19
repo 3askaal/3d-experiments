@@ -8,9 +8,9 @@ import { Scene } from './Scene'
 const Page = () => {
   const [menuOpen, setMenuOpen] = useState(false)
   const [config, setConfig] = useState({
-    color: 'red',
-    amount: 15,
-    offset: 50,
+    color: '#A69FB8',
+    amount: 20,
+    offset: 5,
     edges: true,
     lights: true,
     wireframe: false,
